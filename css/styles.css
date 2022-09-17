@@ -1,4 +1,16 @@
 body {
-    min-height: 100vh;
-    background: linear-gradient( -45deg hsl(0, 100%, 30%), hsl(270, 100%, 30%) 75%);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+/* header */
+
+.header {}
+
+.header-logo {}
+
+.header-link {}
+
+
+/* main */
