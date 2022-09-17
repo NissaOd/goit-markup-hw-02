@@ -2,3 +2,65 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* header */
+
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.header-nav-list {}
+
+.header-link {}
+
+.header-list {}
+
+
+/* btn */
+
+.btn {}
+
+.btn-title {}
+
+.btn-list {}
+
+.btn-item {}
+
+
+/* services */
+
+.services {}
+
+.services-list {}
+
+.services-item {}
+
+.services-foto {}
+
+.services-title {}
+
+.services-text {}
+
+.services-text> {}
+
+.services-item-title {}
+
+
+/* footer */
+
+.footer {}
+
+.footer-link {}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-google {}
+
+.footer-mail {}
+
+.footer-tel {}
