@@ -63,7 +63,6 @@ isually-hidden {
 .header-nav-list {}
 
 .header-link {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -119,21 +118,25 @@ isually-hidden {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-text-past-two);
+    background-color: #F5F4FA;
 }
 
 :hover.btn-item-btn {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    background: var(--color-logo);
+    background-color: var(--color-logo);
+    color: var(--main-title-color);
+}
+
+.btn-item-btn:focus {
+    background-color: var(--color-logo);
     color: var(--main-title-color);
 }
 
@@ -149,7 +152,6 @@ isually-hidden {
 .services-foto {}
 
 .services-title {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -159,11 +161,9 @@ isually-hidden {
 }
 
 .services-text {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
-    /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: var(--color-text-past-thre);
 }
