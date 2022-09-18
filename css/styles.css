@@ -144,7 +144,7 @@ li {
 }
 
 .title-title-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
