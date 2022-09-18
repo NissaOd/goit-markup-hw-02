@@ -131,8 +131,7 @@ isually-hidden {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     background: var(--color-logo);
@@ -155,7 +154,7 @@ isually-hidden {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: calc(36/18);
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--color-text-past-two);
 }
@@ -164,7 +163,7 @@ isually-hidden {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(30/16);
+    line-height: 1.9;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: var(--color-text-past-thre);
@@ -209,7 +208,7 @@ isually-hidden {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
@@ -218,7 +217,7 @@ isually-hidden {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-footer);
 }
@@ -227,7 +226,7 @@ isually-hidden {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-footer);
 }

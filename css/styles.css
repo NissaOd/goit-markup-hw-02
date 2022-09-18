@@ -168,7 +168,7 @@ li {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-text-past-two);
@@ -179,7 +179,7 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--color-text-past-thre);
     text-decoration: none;
@@ -194,7 +194,7 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42/36);
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-text-past-two);
@@ -214,7 +214,7 @@ li {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42/36);
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-text-past-two);
@@ -229,7 +229,7 @@ li {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(19/16);
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-text-past-two);
@@ -240,7 +240,7 @@ li {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(19/16);
+    line-height: 1.19;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
@@ -283,7 +283,7 @@ li {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
@@ -292,7 +292,7 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-footer);
 }
@@ -301,7 +301,7 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-footer);
 }
