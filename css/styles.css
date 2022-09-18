@@ -1,3 +1,8 @@
+:root {
+    --main-title-color: rgb(255, 255, 255);
+    --typical-lnh: 1.36;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -10,11 +15,37 @@ body {
 
 .header-nav {}
 
-.header-logo {}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
 
 .header-nav-list {}
 
-.header-link {}
+.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+:hover.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
 
 .header-list {}
 
@@ -24,11 +55,46 @@ body {
 
 /* title */
 
-.title {}
+.title {
+    background-color: #2F303A;
+}
 
-.title-title {}
+.title-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
-.title-btn {}
+.title-btn {
+    /* position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px; */
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.title-title-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
 
 .specialty {}
 
@@ -38,9 +104,26 @@ body {
 
 .specialty-item {}
 
-.specialty-botton {}
+.specialty-botton {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
 
-.specialty-text {}
+.specialty-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 
 /* doing */
