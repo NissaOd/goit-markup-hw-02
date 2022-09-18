@@ -20,6 +20,16 @@ body {
     color: #2196F3;
 }
 
+.header-logo-white {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
 .header-nav-list {}
 
 .header-link {
@@ -42,6 +52,8 @@ body {
     color: #2196F3;
 }
 
+.header-list {}
+
 
 /* btn */
 
@@ -52,6 +64,31 @@ body {
 .btn-list {}
 
 .btn-item {}
+
+.btn-item-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+:hover.btn-item-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #2196F3;
+    color: #FFFFFF;
+}
 
 
 /* services */
@@ -64,9 +101,26 @@ body {
 
 .services-foto {}
 
-.services-title {}
+.services-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+    color: #212121;
+}
 
-.services-text {}
+.services-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 .services-text> {}
 
@@ -75,16 +129,61 @@ body {
 
 /* footer */
 
-.footer {}
+.footer {
+    background-color: #2F303A;
+}
 
-.footer-link {}
+.footer-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-link-white {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
 
 .footer-list {}
 
 .footer-item {}
 
-.footer-google {}
+.footer-google {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
-.footer-mail {}
+.footer-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
 
-.footer-tel {}
+.footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
