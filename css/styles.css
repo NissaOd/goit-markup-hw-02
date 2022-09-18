@@ -81,7 +81,6 @@ li {
 
 :hover.header-link,
 :hover.header-link-contact {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -99,7 +98,6 @@ li {
 }
 
 .header-link-contact {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -120,7 +118,6 @@ li {
 }
 
 .title-title {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -176,7 +173,6 @@ li {
 }
 
 .specialty-text {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -191,7 +187,6 @@ li {
 .doing {}
 
 .doing-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -210,7 +205,6 @@ li {
 .team {}
 
 .team-title {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -225,7 +219,6 @@ li {
 .team-item {}
 
 .team-name {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -236,7 +229,6 @@ li {
 }
 
 .team-position {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
