@@ -10,7 +10,7 @@
 
 body {
     background-color: #ffffff;
-    color: #757575;
+    /* color: #757575; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -70,8 +70,11 @@ li {
     text-decoration: none;
 }
 
+.header-link.current {
+    color: var(--color-logo);
+}
+
 .header-link {
-    font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -118,7 +121,6 @@ li {
 }
 
 .title-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
@@ -140,18 +142,29 @@ li {
     border-radius: 4px;
 }
 
+.title-btn:hover,
+.title-btn:focus {
+    color: var(--color-logo);
+    background-color: var(--main-title-color);
+}
+
 .title-title-btn {
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 188% */
+    cursor: pointer;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-title-color);
+}
+
+.title-title-btn:hover,
+.title-title-btn:focus {
+    color: var(--color-logo);
+    background-color: var(--main-title-color);
 }
 
 .specialty {}
@@ -161,8 +174,6 @@ li {
 .specialty-item {}
 
 .specialty-botton {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -173,7 +184,6 @@ li {
 }
 
 .specialty-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -202,10 +212,11 @@ li {
 
 /* team */
 
-.team {}
+.team {
+    background-color: #F5F4FA;
+}
 
 .team-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -219,7 +230,6 @@ li {
 .team-item {}
 
 .team-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -229,8 +239,6 @@ li {
 }
 
 .team-position {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
@@ -271,9 +279,6 @@ li {
 .footer-item {}
 
 .footer-google {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -281,8 +286,6 @@ li {
 }
 
 .footer-mail {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -290,8 +293,6 @@ li {
 }
 
 .footer-tel {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

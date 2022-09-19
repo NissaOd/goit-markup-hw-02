@@ -28,7 +28,7 @@ li {
     list-style: none;
 }
 
-isually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -63,7 +63,6 @@ isually-hidden {
 .header-nav-list {}
 
 .header-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -71,9 +70,11 @@ isually-hidden {
     color: var(--color-text);
 }
 
+.header-link.current {
+    color: var(--color-logo);
+}
+
 .header-link-contact {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -83,8 +84,6 @@ isually-hidden {
 
 :hover.header-link,
 :hover.header-link-contact {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -114,22 +113,23 @@ isually-hidden {
 
 .btn-item-btn {
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
+    cursor: pointer;
     letter-spacing: 0.03em;
     color: var(--color-text-past-two);
     background-color: #F5F4FA;
 }
 
+:focus.btn-item-btn,
 :hover.btn-item-btn {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
     letter-spacing: 0.03em;
     background-color: var(--color-logo);
     color: var(--main-title-color);
@@ -152,7 +152,6 @@ isually-hidden {
 .services-foto {}
 
 .services-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -161,7 +160,6 @@ isually-hidden {
 }
 
 .services-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -181,7 +179,6 @@ isually-hidden {
 
 .footer-link {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -191,7 +188,6 @@ isually-hidden {
 
 .footer-link-white {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -204,17 +200,13 @@ isually-hidden {
 .footer-item {}
 
 .footer-google {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 
 .footer-mail {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -222,8 +214,6 @@ isually-hidden {
 }
 
 .footer-tel {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
