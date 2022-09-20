@@ -126,12 +126,6 @@ li {
 
 :focus.btn-item-btn,
 :hover.btn-item-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    cursor: pointer;
-    letter-spacing: 0.03em;
     background-color: var(--color-logo);
     color: var(--main-title-color);
 }
