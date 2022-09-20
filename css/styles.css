@@ -9,8 +9,8 @@
 }
 
 body {
-    background-color: #ffffff;
-    /* color: #757575; */
+    background-color: var(--main-title-color);
+    color: var(--color-text-past-thre);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -154,29 +154,10 @@ li {
 
 .title-btn:hover,
 .title-btn:focus {
-    color: var(--color-logo);
-    background-color: var(--main-title-color);
+    /* color: var(--color-logo); */
+    background-color: #188CE8;
+    ;
 }
-
-.title-title-btn {
-    /* font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--main-title-color); */
-}
-
-
-/* .title-title-btn:hover,
-.title-title-btn:focus {
-    color: var(--color-logo);
-    background-color: var(--main-title-color);
-} */
 
 .specialty {}
 
@@ -238,7 +219,9 @@ li {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: var(--main-title-color)
+}
 
 .team-name {
     font-weight: 500;
@@ -290,6 +273,7 @@ li {
 .footer-item {}
 
 .footer-google {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -297,6 +281,7 @@ li {
 }
 
 .footer-mail {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -304,8 +289,20 @@ li {
 }
 
 .footer-tel {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-footer);
+}
+
+.footer-google:hover,
+.footer-google:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    /* color: var(--color-logo); */
+    color: #188CE8;
+    ;
 }
