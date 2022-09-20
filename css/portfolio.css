@@ -10,6 +10,7 @@ body {
     --color-text: #212121;
     --color-text-past-thre: #757575;
     --color-footer: rgba(255, 255, 255, 0.6);
+    --color-background: #F5F4FA;
 }
 
 a {
@@ -120,7 +121,7 @@ li {
     cursor: pointer;
     letter-spacing: 0.03em;
     color: var(--color-text-past-two);
-    background-color: #F5F4FA;
+    background-color: var(--color-background);
 }
 
 :focus.btn-item-btn,
@@ -179,6 +180,7 @@ li {
 
 .footer-link {
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -188,6 +190,7 @@ li {
 
 .footer-link-white {
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -200,6 +203,7 @@ li {
 .footer-item {}
 
 .footer-google {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -207,6 +211,7 @@ li {
 }
 
 .footer-mail {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -214,8 +219,20 @@ li {
 }
 
 .footer-tel {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-footer);
+}
+
+.footer-google:hover,
+.footer-google:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    /* color: var(--color-logo); */
+    color: #188CE8;
+    ;
 }
